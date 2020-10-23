@@ -1,0 +1,132 @@
+body{
+    background-image: url(../Img/mainbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #e1e1e1;
+    font-family: MueSans;
+}
+
+.product{
+    max-width: 686px;
+    height: 100%;
+    background-color: #111a28;
+    margin: 109px auto;
+    padding: 24px 21px 24px 21px;
+    border-radius: 10px;
+}
+
+.product__middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.product__middle__bottom{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 64px;
+    margin: 0 auto;
+    padding-top: 74px;
+}
+
+.product__middle__bottom__dot{
+    width: 9px;
+    height: 9px;
+    border: 1px solid #7b8188;
+    border-radius: 50%;
+}
+
+.product__middle__bottom__dot--blue{
+    background-color: #1f273f;
+}
+
+.product__middle__bottom__dot--white{
+    background-color: #ffffff;
+}
+
+.product__middle__bottom__dot--red{
+    background-color: #ed3333;
+}
+
+.product__middle__bottom__dot--azure{
+    background-color: #29e3ea;
+}
+
+.product__middle__right{
+    max-width: 187px;
+}
+
+.product__middle__right--nike{
+    font-size: 24px;
+}
+
+.product__middle__right--unisex{
+    font-size: 14px;
+    opacity: 54%;
+    padding-top: 7px;
+}
+
+.product__middle__right__stars{
+    display: flex;
+    list-style: none;
+
+    padding-left: 0;
+    padding-top: 17px;
+    margin: 0;
+}
+
+.product__middle__right__forms{
+    display: flex;
+    padding-top: 17px;
+}
+
+.product__middle__right__forms__size{
+    padding: 5px;
+    color: #e1e1e1;
+    background-color: #111a28;
+}
+
+.product__middle__button{
+    padding-top: 19px;
+}
+
+.product__middle__button_card{
+    padding: 7px 40px 7px 40px;
+    background-color: #202835;
+    border: 1px solid #7b8188;
+    color: #e1e1e1;
+}
+
+.product__middle__right__stars li:hover{
+    transform: scale(1.2);
+}
+
+.product__middle__bottom__dot:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 564px){
+    .product__middle{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 567px){
+    .product__middle__right{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 567px){
+    .product__middle__right__stars{
+        margin: 0 auto;
+    }
+}
+
+@font-face{
+    font-family: "MueSans";
+    src: url(../Fonts/MuseoSansRounded-100.ttf);
+}
